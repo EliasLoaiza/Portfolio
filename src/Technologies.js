@@ -23,7 +23,7 @@ class Technologies extends Component {
                         <p>Junior Level</p>
                     </div>
                     <div class="Technologie REACT">
-                        <h1>React</h1>
+                        <h1>React.js</h1>
                         <p>Junior Level</p>
                     </div>
                     <div class="Technologie GIT">
