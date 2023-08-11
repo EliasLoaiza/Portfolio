@@ -1,6 +1,5 @@
-import React from 'react';
-
-const NavBar = () =>{
+import './navbar.css';
+function NavBar(){
     return (
         <div class="nav">
             <a href="#Home">HOME</a>
@@ -10,4 +9,4 @@ const NavBar = () =>{
         </div>
     );     
 } 
-export default NavBar;
+export {NavBar};

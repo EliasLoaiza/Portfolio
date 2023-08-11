@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
-
-class Technologies extends Component {
-    render(){
+import './technologies.css';
+function Technologies() {
         return (
             <div>
-                <h1><b>Tecnologies</b></h1>
+                <h1><b>Technologies</b></h1>
                 <div id="Technologies" class="Technologies">
                     <div class="Technologie HTML">
                         <h1>HTML</h1>
@@ -33,6 +31,5 @@ class Technologies extends Component {
                 </div>
             </div>
         );
-    }
 }
-export default Technologies;
+export {Technologies} ;

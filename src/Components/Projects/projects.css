@@ -1,0 +1,76 @@
+.Projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3fr;
+    grid-gap: 40px;
+    background-color: #152A64;
+    margin: 5vw;
+  }
+  .Project{
+    background-color: #f2f2f2;
+    max-width: 1100px;
+    max-height: 1100px;
+  }
+  .Project a{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    color: #152A64;
+    margin: 10px;
+    transition: 1s;
+  }
+  .Project a:hover{
+    transition: 1s;
+    transform: rotate(180deg);
+    color: black;
+  }
+  .Project h1{
+    text-align: center;
+    font-family: "Digital 7";
+    font-size: 40px;
+    margin: 20px;
+    color: black;
+  }
+  
+  .Project img{
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    visibility: hidden;
+    background-color: rgba(0,0,0,.4);
+    position: fixed;
+    top:  0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay.active{
+    visibility: visible;
+  }
+  .popup{
+    visibility: hidden;
+    background-color: #f2f2f2;
+    box-shadow: 0px 8px 5px 8px rgba(0,0,0,.4);
+    width: 35vw;
+    height: 35vh;
+  }
+  .popup.active{
+    visibility: visible;
+  }
+  .popup .btn-close-popup{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    color: black;
+  }
+  .popup p{
+    text-align: center center;
+    color: black;
+    font-family: "Digital 7";
+    font-size: 20px;
+    margin: 2vw;
+  }

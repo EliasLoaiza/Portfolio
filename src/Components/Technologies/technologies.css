@@ -1,0 +1,62 @@
+.Technologies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr;
+    margin-bottom: 40vh;
+    grid-gap: 40px;
+    margin-left: 5vw;
+    margin-right: 5vh;
+  }
+  .Technologie{
+    width: 100%;
+    height: auto;
+  }
+  .HTML{
+    background-image: url(./Img/HtmlLogo.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .CSS{
+    background-image: url(./Img/css.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .JS{
+    background-image: url(./Img/Js-Logo.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .NODE{
+    background-image: url(./Img/nods\ js2.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .REACT{
+    background-image: url(./Img/react.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .GIT{
+    background-image: url(./Img/GIt.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .Technologie h1{
+    opacity: 0;
+  }
+  .Technologie p{
+    opacity: 0;
+  }
+  .Technologie:hover{
+    transition: 1.5s;
+    background-color: floralwhite;
+    background-image: none;
+  }
+  .Technologie:hover h1{
+    color: #152A64;
+    opacity: 1;
+  }
+  .Technologie:hover p{
+    color: #152A64;
+    opacity: 1;
+  }
