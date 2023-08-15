@@ -1,6 +1,9 @@
 html{
   width: 100%;
 }
+h1{
+  text-align: center;
+}
 body{
   background-color: #152A64;
 }
@@ -12,9 +15,6 @@ body{
   text-align: center;
 }
 p{
-  font-family: "Digital 7";
-  font-size: 30px;
-  color: #f2f2f2;
   text-align: center;
 }
 .footer{
