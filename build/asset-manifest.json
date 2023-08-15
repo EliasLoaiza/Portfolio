@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d9a23bb5.css",
+    "main.js": "/Portfolio/static/js/main.e6223736.js",
+    "static/media/react.png": "/Portfolio/static/media/react.73ac128ace7cbddf3d39.png",
+    "static/media/digital-7.ttf": "/Portfolio/static/media/digital-7.93911ab167c943140756.ttf",
+    "static/media/Js-Logo.png": "/Portfolio/static/media/Js-Logo.dfc2551c37901f0d42f5.png",
+    "static/media/nods js2.png": "/Portfolio/static/media/nods js2.bc4b43cd5f20ba305059.png",
+    "static/media/Calculator.jpg": "/Portfolio/static/media/Calculator.4990d4e64f2d1b52384b.jpg",
+    "static/media/css.png": "/Portfolio/static/media/css.8932e0e72514540066ba.png",
+    "static/media/Github.png": "/Portfolio/static/media/Github.c8007a9fb185cb152ee6.png",
+    "index.html": "/Portfolio/index.html",
+    "main.d9a23bb5.css.map": "/Portfolio/static/css/main.d9a23bb5.css.map",
+    "main.e6223736.js.map": "/Portfolio/static/js/main.e6223736.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9a23bb5.css",
+    "static/js/main.e6223736.js"
+  ]
+}
