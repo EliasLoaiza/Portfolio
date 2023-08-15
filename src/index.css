@@ -1,11 +1,13 @@
+html{
+  width: 100%;
+}
 body{
   background-color: #152A64;
-  margin: 0px;
 }
-h1 { 
+.tittles {
+  text-shadow: 1px 1px 6px black;
   font-family: "Digital 7";
-  font-size: 60px;
-  margin-bottom: 60px;
+  font-size: 5vw;
   color: #f2f2f2;
   text-align: center;
 }

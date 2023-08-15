@@ -6,10 +6,17 @@
     background-color: #152A64;
     margin: 5vw;
   }
+  @media (max-width: 600px) {
+    .Projects{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 40px;
+    }
+  }
   .Project{
     background-color: #f2f2f2;
-    max-width: 1100px;
-    max-height: 1100px;
+    width: 40vw;
+    box-shadow: 1px 1px 6px black;
   }
   .Project a{
     display: block;
@@ -19,16 +26,10 @@
     margin: 10px;
     transition: 1s;
   }
-  .Project a:hover{
-    transition: 1s;
-    transform: rotate(180deg);
-    color: black;
-  }
   .Project h1{
-    text-align: center;
     font-family: "Digital 7";
-    font-size: 40px;
-    margin: 20px;
+    font-size: 4.5vw;
+    margin-left: 1vw;
     color: black;
   }
   
@@ -73,4 +74,18 @@
     font-family: "Digital 7";
     font-size: 20px;
     margin: 2vw;
+  }
+  .btnInformation{
+    height: 3vh;
+    font-family: 'Digital 7';
+    font-size: 2vw;
+    margin: 1.5vw;
+    margin-left: 13vw;
+    border-color: black;
+    box-shadow: 1px 1px 1px black;
+  }
+  .btnInformation:hover{
+    background-color: grey;
+    color: white;
+    border-color: white;
   }

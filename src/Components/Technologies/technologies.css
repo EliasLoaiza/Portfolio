@@ -2,14 +2,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr;
-    margin-bottom: 40vh;
-    grid-gap: 40px;
+    grid-gap: 2vw;
     margin-left: 5vw;
-    margin-right: 5vh;
   }
   .Technologie{
-    width: 100%;
-    height: auto;
+    width: 80%;
   }
   .HTML{
     background-image: url(./Img/HtmlLogo.png);

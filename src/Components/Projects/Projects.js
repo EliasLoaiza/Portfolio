@@ -1,14 +1,14 @@
 import'./projects.css';
-import calculator from './photo_2023-08-10_13-05-25.jpg';
+import calculator from './Img/Calculator.jpg';
 function Projects () {
         return(
             <div>
-                <h1><b>Projects</b></h1>
+                <h1 className='tittles'><b>Projects</b></h1>
                 <div id="Projects" class="Projects">
                     <div class="Project">
                         <h1>Calculator</h1>
                         <img src={calculator} alt='Calculator'/>
-                        <a href="#Projects" id="Project1"><i class="far fa-plus-square"></i></a>
+                        <button className='btnInformation'>More information</button>
                     </div>
                     <div class="overlay" id="overlay1">
                         <div class="popup" id="popup1"> 
