@@ -33,7 +33,7 @@
 }
 .links{
   width: 3%;
-  margin-left: 1.5vw;
+  margin-left: -4vw;
 }
   @media (max-width: 600px){
     .titleImg{

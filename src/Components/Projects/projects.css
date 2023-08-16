@@ -34,7 +34,7 @@
     font-family: 'Digital 7';
     font-size: 1.5em;
     margin: 1vw;
-    margin-left: 11.3vw;
+    margin-left: 11.2vw;
     border-color: black;
     box-shadow: 1px 1px 1px black;
   }
@@ -45,7 +45,7 @@
   }
   @media (max-width: 600px) {
     .Projects{
-      width: 95%;
+      width: 127%;
       display: grid;
       grid-template-columns: 1fr;
       margin-left: 5vw;
@@ -53,6 +53,6 @@
     .btnInformation{
       font-size: 1em;
       margin: 1vw;
-      margin-left: 22.5vw;
+      margin-left: 28.2vw;
     }
   }

@@ -3,7 +3,7 @@ import calculator from './Img/Calculator.jpg';
 import { Modal } from './Modal/Modal';
 import React from 'react';
 function Projects () {
-const [ModalState, setModalState] = React.useState(true);
+const [ModalState, setModalState] = React.useState(false);
         return(
             <div>
                 <h1 className='tittles'><b>Projects</b></h1>
