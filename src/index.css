@@ -1,11 +1,14 @@
-html{
-  width: 100%;
+html, body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #152A64;
+  scroll-behavior: smooth;
 }
 h1{
   text-align: center;
-}
-body{
-  background-color: #152A64;
 }
 .tittles {
   text-shadow: 1px 1px 6px black;

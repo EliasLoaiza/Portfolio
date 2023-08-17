@@ -1,4 +1,5 @@
 import './navbar.css';
+
 function NavBar(){
     return (
         <nav class="nav">

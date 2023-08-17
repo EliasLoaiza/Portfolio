@@ -1,7 +1,6 @@
 .Projects{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
     grid-gap: 40px;
     background-color: #152A64;
     margin-left: 5vw;

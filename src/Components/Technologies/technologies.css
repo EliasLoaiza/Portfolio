@@ -3,31 +3,33 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr;
     grid-gap: 2vw;
-    margin-left: 5vw;
+    margin-left: 2.7vw;
+    width: 100%;
   }
   .Technologie{
-    width: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: rgb(211, 211, 211);
-    box-shadow: 1px 1px 6px black;
-    border-radius: 5%;
-  }
-  .Technologie img{
-    position: relative;
+    width: 80% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-color: rgb(211, 211, 211) !important;
+    box-shadow: 1px 1px 6px black !important;
+    border-radius: 5% !important;
   }
   .Technologie h1{
+    font-family: "Digital 7";
     opacity: 0;
+    font-size: 3em;
+    padding: 5vh;
+    font-weight: bold;
   }
   .Technologie p{
     opacity: 0;
-    font-size: 1.5em;
+    font-size: 2em;
+    padding-bottom: 1vh;
   }
-  .Technologie:hover{
+  .Technologie:hover {
     transition: 0.7s;
     background-color: floralwhite;
-    background-image: none;
   }
   .Technologie:hover h1{
     color: #152A64;
@@ -37,10 +39,20 @@
     color: #152A64;
     opacity: 1;
   }
+  .text:hover{
+    transition: 0.7s;
+    backdrop-filter: blur(4px);
+  }
   @media (max-width: 600px) {
     .Technologies{
       display: grid;
       grid-template-columns: 1fr 1fr;
       margin-left: 5vw;
+    }
+    .Technologie p{
+      font-size: 1em;
+    }
+    .Technologie h1{
+      font-size: 1.5em;
     }
   }

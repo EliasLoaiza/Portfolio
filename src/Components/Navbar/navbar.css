@@ -1,6 +1,7 @@
 .nav{
     display: flex;
     overflow: hidden;
+    margin-top: 1vh;
   }
   .nav a{
     text-decoration: none;

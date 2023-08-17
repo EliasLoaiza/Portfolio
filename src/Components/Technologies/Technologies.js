@@ -11,9 +11,9 @@ function Technologies() {
         {name: 'React.js', experience: 'Junior Level', img: require('./Img/react.png')},
     ]
         return (
-            <div>
+            <div id="Technologies" >
                 <h1 className='tittles'><b>Technologies</b></h1>
-                <div id="Technologies" class="Technologies">
+                <div class="Technologies">
                 {TechnologiesList.map(Technologie => (
                     <TechnologieItem name={Technologie.name} experience={Technologie.experience} img={Technologie.img}/>
                 ))}

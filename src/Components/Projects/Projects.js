@@ -5,9 +5,9 @@ import React from 'react';
 function Projects () {
 const [ModalState, setModalState] = React.useState(false);
         return(
-            <div>
+            <div id="Projects">
                 <h1 className='tittles'><b>Projects</b></h1>
-                <div id="Projects" class="Projects">
+                <div class="Projects">
                     <div class="Project">
                         <h1>Calculator</h1>
                         <img src={calculator} alt='Calculator'/>

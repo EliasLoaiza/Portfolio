@@ -3,7 +3,7 @@ import './Modal.css';
 function Modal ({setModalState}){
     return createPortal(
         <div className="overlay"> 
-            <div className="popup">
+            <div className="Modal">
                 <p>React Basic Project using useState</p>
                 <p>LINK:</p>
                 <a href="https://eliasloaiza.github.io/Calculadora">https://eliasloaiza.github.io/Calculadora</a>
